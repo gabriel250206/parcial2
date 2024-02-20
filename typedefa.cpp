@@ -6,6 +6,13 @@ int main(){
         typedef bool buleano;
         typedef float decimal;
         
+        entero x,y,z;
+        x=9;
+        y=8;
+        z=x+y;
+        cout<<z<<endl;
+
+
 
         
         

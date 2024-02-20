@@ -9,14 +9,24 @@ int main(){
       char ci=97;
       const char* chars="hola";
       LOG(*(chars+1));
-      string name="gabo";
-      string* pName=&name;
-
-      LOG(&name);
-      LOG(pName);
+     
 
 
+      char name[]= "Gabriel";// hay un caracter oculto, al final del string
+      char*pName= &name[0];
+      LOG(sizeof name);
+      LOG(*(pName+4));
 
+
+      int numeros[10];
+      LOG("numeros: ");
+      LOG(sizeof numeros);// nos da el tamaño en bytes
+
+      int numeros2[10];
+      LOG("numeros: ");
+      LOG((sizeof numeros2)/(sizeof(int)));// ya con esto nos da el tamaño
+
+      cin>>c;// no se para que es esto
 
 
       /*

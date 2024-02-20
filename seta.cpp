@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    /*
     set<char> a;
     a.insert('G');
     a.insert('F');
@@ -14,9 +15,16 @@ int main()
     }
     cout << '\n';
     return 0;
-
-
-
+*/
+    set<int>x;
+    x.insert(9);
+    x.insert(6);
+    x.insert(7);
+    x.insert(3);
+    x.insert(3);
+    for(auto& in:x){
+        cout<<in<<endl;
+    }
 
     /*
     Some Basic Functions Associated with Set

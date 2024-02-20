@@ -8,6 +8,10 @@ int pSuma(int* x, int y){
 return *x+y;
 }
 
+void pSuma2(int* x, int y){
+    *x+=y;
+    }
+
 int main(){
         /*
         int arr[10];
@@ -27,8 +31,9 @@ int main(){
 
         x=9;
         cout<<suma(x,2)<<endl;
-        cout<<pSuma(pX,3);
-
+        cout<<pSuma(pX,3)<<endl;
+        pSuma2(pX,3);
+        cout<<*pX;
         
     return 0;
 }
